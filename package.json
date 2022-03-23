@@ -17,8 +17,10 @@
     "@types/react-dom": "^17.0.14",
     "axios": "^0.26.1",
     "formik": "^2.2.9",
+    "moment": "^2.29.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-pdf": "^5.7.1",
     "react-redux": "^7.2.6",
     "react-router-dom": "6",
     "react-scripts": "5.0.0",
@@ -52,6 +54,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-pdf": "^5.0.9",
     "@typescript-eslint/eslint-plugin": "^5.16.0",
     "@typescript-eslint/parser": "^5.16.0",
     "eslint": "^8.11.0",

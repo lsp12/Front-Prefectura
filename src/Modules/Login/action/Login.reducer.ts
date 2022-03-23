@@ -29,7 +29,6 @@ export const getUser = createAsyncThunk(
       toast.success( 'Login Successful' );
       return response;
     } catch ( error:any ) {
-      toast.error( 'Login Failed' );
       console.log( error.response.data.message );
       toast.warning( error.response.data.message );
       return thunkAPI.rejectWithValue( true );
